@@ -1,0 +1,31 @@
+*{
+    font-family: sans-serif;
+}
+
+.tabs-header-section{
+    display: flex;
+    gap: 0.5rem;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+button{
+    cursor: pointer;
+}
+
+.btn-tab{
+    border: none;
+    background: #dedada;
+    padding: 10px 20px;
+    border-radius: 25px;
+    color: rgb(54, 61, 67);
+    font-weight: 600;
+}
+
+.btn-tab:hover{
+      background: #e4e2e2;
+}
+
+.btn-tab.active{
+   background: #f0efef;
+}
